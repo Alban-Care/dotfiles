@@ -1,2 +1,2 @@
 # dotfiles
-Most used personal dotfiles files
+My most used personal dotfiles
