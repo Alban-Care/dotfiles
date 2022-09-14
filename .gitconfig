@@ -1,0 +1,25 @@
+# It is necessary to adapt the username, email address and code editor with correct information
+
+[user]
+    name = Alban Caré
+    email = alban.care@gmail.com
+[init]
+    defaultBranch = main
+[core]
+    autocrlf = false
+    safecrlf = true
+    preloadindex = true
+    fscache = true
+    editor = code --wait
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+        cmd = "code --wait "
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[color]
+    status = always
+[pull]
+    rebase = true
