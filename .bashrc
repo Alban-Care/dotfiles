@@ -42,3 +42,9 @@ fi
 
 # Add ssh-agent key alias
 # exemple: alias ssh-github='ssh-add ~/.ssh/id_ed25519-github'
+
+# Add Apache2 keys alias
+alias apache-status='sudo systemctl status apache2.service'
+alias apache-start='sudo systemctl start apache2.service'
+alias apache-stop='sudo systemctl stop apache2.service'
+alias apache-restart='sudo systemctl restart apache2.service'
