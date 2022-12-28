@@ -3,6 +3,7 @@
 [user]
     name = Alban Caré
     email = alban.care@gmail.com
+# git config --global init.defaultBranch main
 [init]
     defaultBranch = main
 [core]
@@ -23,3 +24,11 @@
     status = always
 [pull]
     rebase = true
+# Stop writing "git push - set-upstream origin develop", just add:
+[push]
+    default = current
+    autoSetupRemote = true
+# or use commands :
+# git config --global push.default current
+# git config --global --add --bool push.autoSetupRemote true
+
